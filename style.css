@@ -29,3 +29,41 @@
 *, *:before, *:after {
     box-sizing: border-box;
   }
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+  }
+
+.header, .nav-top-left, .nav-top-right {
+    border: 2px solid blue;
+    display: flex;
+  }
+
+.header {
+    justify-content: space-between;
+    background-color: var(--dark-bg);
+  }
+
+.nav-top-right > li, .nav-top-left > li {
+    list-style: none;
+}
+
+.nav-top-left {
+    color: var(--main-text);
+}
+
+.nav-top-right {
+    gap: 1rem;
+}
+
+.nav-top-left > li {
+    font-size: var(--header-logo-text-size);
+}
+
+.nav-top-right > li > a {
+    font-size: var(--hero-secondary-text-size);
+    text-decoration: none;
+    color: var(--secondary-text)
+}
