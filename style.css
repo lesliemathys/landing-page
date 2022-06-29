@@ -190,6 +190,7 @@
     background-color: var(--quote-bg);
     padding-top: 3rem;
     padding-bottom: 3rem;
+    padding: 12rem 0;
 }
 
 .center {
@@ -203,15 +204,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: var(--quote-text);
     font-size: var(--info-header-text-size);
     font-weight: 100;
     font-style: italic;
     color: var(--quote-text);
-    padding: 6rem 0;
 }
 
 .quote-author {
     display: flex;
     justify-content: flex-end;
+    font-size: 2rem;
+    font-weight: 900;
 }
