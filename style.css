@@ -203,6 +203,12 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: var(--quote-text);
+    font-size: var(--info-header-text-size);
+    font-weight: 100;
+    font-style: italic;
+    color: var(--quote-text);
+    padding: 6rem 0;
 }
 
 .quote-author {
