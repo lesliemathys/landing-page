@@ -1,4 +1,7 @@
 :root {
+
+/* used :root for the first time to set global variables, to be allow for easier styling further down */
+
     /* background colours */
     --dark-bg: #1f2937;
     --cta-bg: #3882f6;
@@ -30,6 +33,7 @@
     box-sizing: border-box;
   }
 
+ /* centering class as referred to in index.html   */
 .header-center {
     display: flex;
     justify-content: space-between;
@@ -169,10 +173,8 @@
 }
 
 .img-subtext-container {
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
     max-width: 20rem;
 }
 
