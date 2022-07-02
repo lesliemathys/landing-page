@@ -37,20 +37,17 @@
 .header-center {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     width: 50%;
     margin: 0 auto;
 }
 
-.body {
+body {
     display: flex;
     flex-direction: column;
+    font-family: "Inter";
 }  
-
-.page-container {
-    display: flex;
-    flex-direction: column;
-  }
 
 .header, .nav-top-left, .nav-top-right {
     display: flex;
@@ -84,33 +81,45 @@
     color: var(--secondary-text)
 }
 
-/* ------ hero section ------ */
-
-.center {
+.header-center {
     display: flex;
-    flex-direction: column;
     max-width: 50%;
     margin: 0 auto;
 }
+
+/* ------ hero section ------ */
 
 .hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 0;
     background-color: var(--dark-bg);
     gap: 3rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
 
-.hero-text, .hero-image {
+.hero-center {
     display: flex;
-    max-width: 30vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .hero-text {
+    display: flex;
+    /* flex-wrap: wrap; */
     flex-direction: column;
+    max-width: 60%;
     gap: 1.5rem;
+    margin-right: 1rem;
+}
+
+.hero-image {
+    display: flex;
+    flex-basis: auto;
 }
 
 .hero-image > img {
@@ -118,7 +127,7 @@
 }
 
 .hero-main-text {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     font-weight: 900;
     font-size: var(--hero-main-text-size);
     color: var(--main-text);
@@ -163,6 +172,7 @@
 .images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 3rem;
     gap: 5rem;
 }
@@ -197,7 +207,7 @@
     padding: 12rem 0;
 }
 
-.center {
+.image-container, .center {
     display: flex;
     flex-direction: column;
     max-width: 50%;
@@ -222,6 +232,8 @@
     color: var(--quote-text);
 }
 
+/* ------ call to action section ------ */
+
 .cta-container {
     display: flex;
     justify-content: center;
@@ -231,6 +243,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     width: 50vw;
     background-color: var(--cta-bg);
     border-radius: .5rem;
