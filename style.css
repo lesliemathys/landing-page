@@ -1,3 +1,4 @@
+
 :root {
 
 /* used :root for the first time to set global variables, to be allow for easier styling further down */
@@ -105,16 +106,16 @@
 
 .hero-text, .hero-image {
     display: flex;
-    max-width: 30vw;
 }
 
 .hero-text {
     flex-direction: column;
     gap: 1.5rem;
+    max-width: 30vw;
 }
 
 .hero-image > img {
-    max-width: 350px;
+    max-width: 200%;
 }
 
 .hero-main-text {
@@ -165,6 +166,8 @@
     justify-content: center;
     margin-top: 3rem;
     gap: 5rem;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .img-subtext-container {
@@ -281,4 +284,56 @@
     font-size: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+@media screen and (max-width: 640px)
+{
+    body, html{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+    }
+    .header-center{
+        width: 100%;
+        flex-direction: column;
+    }   
+    .hero-container{
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+    }
+    .hero-text{
+        max-width: 100%;
+        margin: 10px
+    }
+    .hero-image{
+        max-width: 100px;
+        text-align: center;
+    }
+    
+    .img-header{
+        margin-left: 10px;
+    }
+    .images{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .quote-text
+    {
+        font-size: 20px;
+    }
+    .cta-modal{
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%
+    }
+    .cta-container{
+        width: 100vw;
+        overflow-x: hidden;
+        padding: 0.8em 0;
+    }
+    .cta-btn{
+        margin-top: -50px;
+    }
 }
