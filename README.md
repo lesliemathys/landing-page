@@ -1,13 +1,22 @@
-# landing-page
+<h1 align="center">Welcome to Practise Landing Page 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-## Assignment
-Create an entire webpage from a design provided for you. Files given are in /images.
+> A Practise website landing page, used to learn more about CSS/HTML
 
-## Approach
-Using the image provided + fonts/colour cheatsheet, I uapplied the knowledge learned to date to produce this landing page. In the `<head>` section of my index.html file, I used properties from the Open Graph Protocol, after learning about them while creating my [VV Presence](https://github.com/lesliemathys/vv-presence) project. I leaned heavily on Flex Box to recreate the layout as closely as possible. 
+### ✨ [Demo](https://itshypers.github.io/HypersLanding)
 
-I feel as though I am using too many flex containers, and that there may be more succinct ways to achieve the same look, but I'm certain I can get there in time. 
+## Author
 
-This was the first project in which I used `:root`
+👤 **Ryan Thomas**
 
-## Learnings
+* Github: [@ItsHypers](https://github.com/ItsHypers)
+* LinkedIn: [@ryanthomas11](https://linkedin.com/in/ryanthomas11)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
